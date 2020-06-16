@@ -1,0 +1,290 @@
+, *::before, *::after {
+    box-sizing: border-box;
+    font-family:pple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; 
+}
+body{
+    margin: 0px;
+    font-family:Lucida Sans Unicode ; 
+}
+header{
+    background-color: aliceblue;
+}
+.hear-top{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    max-width: 1500px;
+}
+.hear-left,.hear-right  {
+    margin: -5px;
+}
+.hear-left ul li {
+    list-style: none;
+     font-size:13px; 
+}
+.hear-left ul li a{
+    color:white;
+    background-color: #FF1857;
+    text-transform: uppercase;
+    padding: 7px;
+    
+    text-decoration: none; 
+    color:white;
+
+}
+.hear-left ul li a:hover{
+    transition: 0.5s;
+    background-color: white;
+    border: 1px solid #FF1857;
+    color: #FF1857;
+}
+
+.hear-right ul{
+    display: flex;
+    list-style: none;
+}
+.hear-right ul li a i{
+    margin: 0 5px;
+    color: #AAAAAA;
+    font-size: 13px;
+
+}
+#fabfa{
+    margin-right: 15px;
+}
+.hear-right ul li a i:hover{
+    transition: 0.5s; 
+    color:  #FF1857;
+     
+}
+/* button top tugadi */
+#hear-middle{
+    background-color: white;
+   display: flex; 
+   justify-content: space-between;
+   align-items: center; 
+}
+.container{
+    width: 85%;
+    margin: auto;
+    max-width: 1500px;
+    align-items: center;
+}
+   
+.hea-left{
+    display: flex;
+    align-items: center;  
+}
+.hea-right{
+    display: inline-block;
+    border: 1px dashed #AAAAAA;
+    width: 660px;
+    height: 6%;
+    margin: 20px 0px;
+    padding: 30px;
+    background-color: rgb(245, 248, 247);
+    text-align: center;
+    color:  #AAAAAA;
+    font-size: 25px;
+    }
+.forcemag{
+    font-size: 35px;
+    font-family:Lucida Sans Unicode;
+
+
+}
+/*dropni tayorlanishi */
+
+.dropbtn{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+
+
+
+/* drop tugadi */
+/* header tugadi  */
+
+.banner{
+    height: 80vh;
+    position: relative;
+    background-image: url(../img/banner/banner.jpg);
+    background-position: center;
+    background-origin: border-box;
+    display: flex;
+
+}
+.hear-buttom{
+    position: absolute;
+    background: white;
+    text-decoration: none;
+    justify-content: center;
+    padding: 20px 20px;
+    display: flex;
+    width: 82.8%;
+    justify-content:space-between;
+    left: 7%;
+    top: 0;
+
+    
+    
+}
+.hear-bl a,.hear-br a{
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.hear-bl a:hover{
+    color: #FF1857;
+    transition: 0.5s;
+
+}
+.activ{
+    color: #FF1857;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/* main asosiy qism tugadi */
+/* section boshlandi */
+.sectionone{
+    width: 85%;
+    margin: auto;
+    margin-top:120px; 
+}
+.seconetop{
+    border-left: 2px solid red;
+    background-color: #f1f1f1;
+    height: 45px;
+    margin-bottom:35px; 
+    
+}
+.seconetop p{
+    padding: 9px;
+    font-size: 18px;
+   
+}
+.seconebotton{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.seconebot{
+    
+    width: 25%; 
+    
+}
+.btnone{
+    border-radius: 30px;
+    padding: 8px 16px;
+    background-color: #FF1857;
+}
+.btnonemath{
+    margin: 20px 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 90%;
+}
+.btnonemath span{
+    font-size: 12px;
+}
+.btnonemath a:hover{
+    color: #FF1857;
+    transition: 0.5s;
+    
+}
+
+
+.seconebot p{
+    font-size: 14px;
+    color: #AAAAAA;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    .hea-right{
+       display: none;
+    }
+    .hear-buttom {
+        display:none;
+    }
+    #hear-middle{
+    height: 70px;
+    }
+    .dropdown{
+        display: block;
+    }
+    .seconebot{
+        width: 50%;
+       
+        
+
+    }
+}
+@media  screen and (max-width: 570px) {
+   .hear-top{
+       display: none;
+   }
+}
